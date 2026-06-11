@@ -1,5 +1,5 @@
-# color= ['red','blue','green','yellow','brown']
-#print(color)
+color= ['red','blue','green','yellow','brown']
+# print(color)
 """
 print(color[0])
 print(color[1])
@@ -7,7 +7,9 @@ print(color[2])
 print(color[3])
 print(color[4])
 """
-
+print(':'.join(color))
+text  = (",".join(color))
+print(text)
 #print(color[-2])
 #print(len(color))
 
@@ -87,15 +89,24 @@ print(color)               #['red', 'blue', 'green', 'yellow', 'brown', 'pink', 
 #--------------SLICING-----------------
 
 # floors = ['Gnd','1st','2nd','3rd','4th','5th','6th','7th']
-# print(floors[:2])     #['Gnd', '1st']
-# #([start:stop:step])
-# print(floors[0:8:2])  #['Gnd', '2nd', '4th', '6th']
-# print(floors[1:8:3])  #['1st', '4th', '7th']
-# print(floors[::2])    #['Gnd', '2nd', '4th', '6th']
-# #--REvERSE--
-# print(floors[::-1])   #['7th', '6th', '5th', '4th', '3rd', '2nd', '1st', 'Gnd']
-# print(floors[::-2])    #['7th', '5th', '3rd', '1st']
+# # print(floors[:2])     #['Gnd', '1st']
+# # #([start:stop:step])
+# # print(floors[0:8:2])  #['Gnd', '2nd', '4th', '6th']
+# # print(floors[1:8:3])  #['1st', '4th', '7th']
+# # print(floors[::2])    #['Gnd', '2nd', '4th', '6th']
+# # #--REvERSE--
+# # print(floors[::-1])   #['7th', '6th', '5th', '4th', '3rd', '2nd', '1st', 'Gnd']
+# # print(floors[::-2])    #['7th', '5th', '3rd', '1st']
 
+# block_B = floors[:]
+
+# block_B.append('8th')
+# block_B[0]="Ground"
+
+# # means we copied the list and made changes to the copy, not the original list.
+
+# print(block_B)  #['Ground', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th', '8th']
+# print(floors)    #['Gnd', '1st', '2nd', '3rd', '4th', '5th', '6th', '7th']
 #---------------TUPLES-----------------
 
 # carc = ('BMW','Audi','Mercedes','Lamborghini','Ferrari')
@@ -125,5 +136,5 @@ print(color)               #['red', 'blue', 'green', 'yellow', 'brown', 'pink', 
 #room_no[0] = 201  # This will raise a TypeError since tuples are immutable
 #room_no.append(201)  # This will also raise an AttributeError since tuples do not have an append method
 
-room_no = (201, 202, 203, 204, 205)  # To change the values, we need to create a new tuple
-print(room_no)  # Output: (201, 202, 203, 204, 205)
+# room_no = (201, 202, 203, 204, 205)  # To change the values, we need to create a new tuple
+# print(room_no)  # Output: (201, 202, 203, 204, 205)
