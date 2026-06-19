@@ -1,0 +1,32 @@
+[
+ {
+  "name": "Alex Reed",
+  "age": 30,
+  "is_working": true
+ },
+ {
+  "name": "Sarah Chen",
+  "age": 25,
+  "is_working": true
+ },
+ {
+  "name": "Marcus Johnson",
+  "age": 42,
+  "is_working": false
+ },
+ {
+  "name": "Elena Rostova",
+  "age": 19,
+  "is_working": false
+ },
+ {
+  "name": "herry",
+  "age": "12",
+  "is_working": "False"
+ },
+ {
+  "name": "janyy",
+  "age": "20",
+  "is_working": "False"
+ }
+]
